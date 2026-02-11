@@ -60,8 +60,8 @@ const Navbar = () => {
         {/* Logo - Name */}
         <a href="#" className="navbar-logo">
           <span className="logo-text">
-            <span className="logo-first">Levon</span>
-            <span className="logo-last">Petrosyan</span>
+            <span className="logo-first">Marcos</span>
+            <span className="logo-last">Alvarez</span>
           </span>
         </a>
 

@@ -23,8 +23,37 @@ const Contact = () => {
             </div>
           </a>
 
+          <a href="tel:+573145277817" className="contact-item">
+            <div className="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="24" height="24">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.09 4.18 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.72c.12 1.05.36 2.07.72 3.03a2 2 0 0 1-.45 2.11L8.91 10.09a16 16 0 0 0 6 6l1.23-1.23a2 2 0 0 1 2.11-.45c.96.36 1.98.6 3.03.72A2 2 0 0 1 22 16.92z" />
+              </svg>
+            </div>
+            <div className="contact-details">
+              <span className="contact-label">Phone</span>
+              <span className="contact-value">+57 314 527 7817</span>
+            </div>
+          </a>
+
           <a
-            href="https://www.linkedin.com/in/levon-petrosyan-ab44513a7"
+            href="https://wa.me/573145277817"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-item"
+          >
+            <div className="contact-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                <path d="M12 0C5.373 0 0 5.373 0 12c0 2.06.652 3.976 1.758 5.59L0 24l6.59-1.758A11.97 11.97 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.84 0-3.562-.4-5.123-1.104l-.367-.189-3.811 1.01.967-3.63-.189-.38C1.567 15.7 1 14.003 1 12c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10zm5.16-14.82c-.276-.088-.872-.276-1.46-.276-.593 0-1.457.093-2.225.93-.486.533-1.837 1.794-1.837 4.368 0 2.574 1.88 5.062 2.142 5.41.262.349 3.708 5.775 9.054 7.93 4.467 1.75 5.375 1.401 6.347 1.313.97-.088 3.139-1.272 3.577-2.505.44-1.233.44-2.287.309-2.505-.131-.219-.439-.349-.915-.577-.475-.228-2.814-1.387-3.251-1.544-.438-.157-.754-.23-1.073.23-.318.458-1.232 1.544-1.512 1.86-.28.317-.561.365-.914.107-.352-.258-1.486-.548-2.828-1.745-1.047-.93-1.754-2.078-1.96-2.533-.205-.456-.022-.7.154-.925.158-.184.351-.459.528-.689.176-.23.235-.39.352-.65.117-.26.059-.487-.029-.684-.088-.196-.793-1.912-1.087-2.616z"/>
+              </svg>
+            </div>
+            <div className="contact-details">
+              <span className="contact-label">WhatsApp</span>
+              <span className="contact-value">+57 314 527 7817</span>
+            </div>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/marcos-alvarez624"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-item"
@@ -36,7 +65,7 @@ const Contact = () => {
             </div>
             <div className="contact-details">
               <span className="contact-label">LinkedIn</span>
-              <span className="contact-value">linkedin.com/in/marcos-alvarez</span>
+              <span className="contact-value">linkedin.com/in/marcos-alvarez624</span>
             </div>
           </a>
 
